@@ -1,2 +1,2 @@
 # Front_End_1
-Este repositorio contiene los trabajos de la materia Front End 1
+Material de la clase Front End 1
