@@ -1,0 +1,166 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* ------------------------------------------- */
+
+/* Franja Descuentos 20% */
+
+.descuento {
+  background-color: #1cd1b0;
+  position: static;
+}
+.descuento p {
+  color: #000000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+/* Header */
+header {
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+h1 {
+  color: #f3f3f3;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+/* Card Header */
+.card {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.card-header {
+  height: 193px;
+  border-radius: 20px 20px 0px 0px;
+}
+.heart {
+  color: #cc2424;
+  position: relative;
+  top: 16px;
+  left: 21px;
+}
+/* card header backgrounds */
+.bg-batman {
+  background-image: url(../img/bg-batman.jpg);
+  background-position-x: -150px;
+  background-position-y: -100px;
+  background-size: 500px 400px;
+}
+.bg-wonderwoman {
+  background-image: url(../img/bg-wonderw.jpg);
+  background-position-x: -50px;
+  background-position-y: -50px;
+  background-size: 500px 400px;
+}
+.bg-superman {
+  background-image: url(../img/bg-superman.jpg);
+  background-position-x: -75px;
+  background-position-y: -20px;
+  background-size: 540.57px 342.85px;
+}
+
+/* Card Content */
+.card-body {
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-content {
+  position: relative;
+  top: -60px;
+}
+.profile-picture {
+  position: relative;
+  left: 90px;
+  width: max-content;
+}
+
+.profile-picture img {
+  border-radius: 60px;
+  height: 120px;
+  width: 120px;
+}
+
+.superhero-name h2 {
+  color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.superhero-name p {
+  color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px 16px 0px 16px;
+}
+/* botón ver más */
+.button {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  position: relative;
+  bottom: -30px;
+}
+.button a {
+  background-color: #00669f;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  border-top: 1em solid #00669f;
+  border-bottom: 1em solid #00669f;
+  border-left: 35px solid #00669f;
+  border-right: 35px solid #00669f;
+  box-sizing: border-box;
+  padding: auto;
+}
+
+/* ícono signo + */
+
+main {
+  position: relative;
+}
+.plus-icon {
+  color: #ffffff;
+  background-color: #00669f;
+  border-radius: 30px;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: 1;
+}
+.plus-icon i {
+  margin: 10px 12px 10px 12px;
+}
+
+/* pie de página */
+footer {
+  background-color: #00669f;
+  border: solid 20px #00669f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
