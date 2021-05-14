@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <div>
+        <!-- borrar después -->
+        <fieldset>
+            <legend>Mascota</legend>
+
+            <label for="¿Tenés mascota?">¿Tenés mascota?</label>
+            <input type="radio" name="mascota" id="si" value="si">
+            <label for="si">Si</label>
+            <input type="radio" name="mascota" id="no" value="no">
+            <label for="no">No</label>
+        </fieldset>
+
+        <br>
+        <label for="¿Cuáles son tus hobbies?">¿Cuáles son tus hobbies? </label>
+        <input type="checkbox" name="hobby" id="Pescar" value="Pescar">
+        <label for="Pescar">Pescar</label>
+        <input type="checkbox" name="hobby" id="Correr" value="Correr ">
+        <label for="Correr">Correr</label>
+
+        <label><input type="checkbox" name="hobby" id="Yoga" value="Yoga">Yoga</label>
+    </div>
+
+    <div>
+
+
+
+        <form action="./info.txt" method="post">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="" required placeholder="Pepe">
+            <br>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="" id="">
+            <br>
+
+            <label for="comentarios">Comentarios</label>
+            <br>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+            <br>
+
+            <label for="country">País</label>
+            <select name="country" id="">
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+
+
+        </form>
+
+    </div>
+    <div>
+        <br>
+        <form action="resultado.html" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+
+
+
+        </form>
+    </div>
+
+    <div style="background-color: darkgreen;">
+
+        <P>a</P>
+
+    </div>
+    <div>
+
+        <form action="" method="post">
+
+            <label>
+                <input type="radio" name="X" id="">
+                Mañana
+            </label>
+            <label>
+                <input type="radio" name="X" id="">
+                Tarde
+            </label>
+            <input type="radio" name="X" id="z">
+            <label for="z">Noche</label>
+
+            <br>
+
+            <label>
+                <input type="radio" name="y" id="">
+                Lunes
+            </label>
+            <label>
+                <input type="radio" name="y" id="">
+                Martes
+            </label>
+            <input type="radio" name="y" id="z">
+            <label for="z">Miércoles</label>
+
+            <br>
+
+        </form>
+
+
+
+    </div>
+    <div style="background-color: darkgreen;">
+
+        <P>a</P>
+
+    </div>
+    <div>
+
+        <form action="" method="post">
+
+            <label for="">
+                Fecha de Nacimiento
+
+                <input type="date" name="" id="">
+                <span class=""></span>
+            </label>
+
+
+            <br>
+            <br>
+            <br>
+
+            <input type="file" name="" id="" multiple>
+            <br>
+            <br>
+            <input type="file" name="" id="" accept=".mp3, .txt">
+
+            <br>
+            <br>
+
+            <select name="mes" id="">
+
+                <optgroup label="Q1">
+
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                </optgroup>
+
+                <optgroup label="Q2">
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                </optgroup>
+
+                <optgroup label="Q3">
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                </optgroup>
+
+                <optgroup label="Q4">
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </optgroup>
+
+            </select>
+
+
+        </form>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

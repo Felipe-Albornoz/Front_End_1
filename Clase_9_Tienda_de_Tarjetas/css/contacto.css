@@ -1,0 +1,144 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* ------------------------------------------- */
+
+/* Franja Descuentos 20% */
+
+.descuento {
+  background-color: #1cd1b0;
+  position: static;
+}
+.descuento p {
+  color: #000000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+/* Header */
+header {
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+h1 {
+  color: #f3f3f3;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+/* ícono signo + */
+
+main {
+  position: relative;
+}
+
+/* pie de página */
+footer {
+  background-color: #00669f;
+  border: solid 20px #00669f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.barra_navegacion {
+  background-color: #001d2d;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.barra_navegacion > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.formulario > h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.enviar {
+  background-color: #1dd1b1;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  border-style: none;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  padding: 0;
+}
+
+.resetear {
+  background-color: #888989;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  border-style: none;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+  padding: 0;
+}
+
+input {
+  height: 60px;
+  width: 620px;
+  padding-left: 25px;
+}
+
+textarea {
+  width: 620px;
+  height: 251px;
+}
+
+.formulario {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+}
+form {
+  font-family: "Karla", sans-serif;
+  position: relative;
+  top: 50px;
+}
+
+#email {
+  position: relative;
+  top: 20px;
+}
+
+#comentarios {
+  position: relative;
+  top: 40px;
+}

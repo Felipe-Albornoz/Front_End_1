@@ -12,6 +12,73 @@
 
 <body>
 
+    <div>
+        <h3>Login</h3>
+        <form action="#">
+            <fieldset>
+                <legend> Datos Personales </legend>
+
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Inserte su Nombre aquí" required>
+                <br>
+
+                <label for="cat">Tipo de Documento</label>
+                <label for="cat1"><input type="radio" id="cat1" name="cat" placeholder="Inserte su Nombre aquí"
+                        required>DNI</label>
+                <label for="cat2"><input type="radio" id="cat2" name="cat" placeholder="Inserte su Nombre aquí"
+                        required>CUIL</label>
+                <label for="cat3"><input type="radio" id="cat3" name="cat" placeholder="Inserte su Nombre aquí"
+                        required>CUIT</label>
+
+                <br>
+
+                <input type="file" id="file" name="file" required>
+
+
+
+
+
+
+
+
+
+            </fieldset>
+
+
+
+        </form>
+
+    </div>
+
+    <div class="login">
+        <h3>Login</h3>
+        <form action="contacto.html" method="POST">
+
+
+            <!-- name = "nombre de la columna en la base de datos" -->
+            <!-- placeholder = ejemplo de que va en dicho campo -->
+
+
+
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="alguien@digitalhouse.com" required>
+
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" required>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+
+            <input type="submit" value="Enviar">
+            <input type="reset" name="" id="">
+
+        </form>
+    </div>
+
 </body>
 
 </html>
