@@ -92,6 +92,11 @@ h1 {
   background-position-y: -20px;
   background-size: 540.57px 342.85px;
 }
+.bg-harleyquinn {
+  background-image: url(../img/bg-harleyquinn.png);
+  background-position-x: -20px;
+  background-size: 350px 200px;
+}
 
 /* Card Content */
 .card-body {
